@@ -19,6 +19,8 @@ This is a project of DSC 80 at University of California San Diego that analyzes 
 ---
 ## Baseline model
 
+**Model Description**: We build our baseline model based on two features, `tags` and `description`, which are the two categorical columns, because the information in the two columns are different from each other, and both contains some elements that people may prefer or not. We choose to include **"easy"**, **"breakfast"**, **"lunch"**, and **"dinner"**, which appear in `tags`, and **"delicious"**, which appears in `description` as the targeted words based on the further data cleaning in the previous part.
+
 ---
 
 ---
