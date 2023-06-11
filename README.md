@@ -1,5 +1,5 @@
 # A Predictive model on recipe's rating score
-This is a project of DSC 80 at University of California San Diego that analyzes the relationship among average ratings of recipes and times required of recipes conducted by Jason Dai and Kelly Gong.
+This is a project of DSC 80 at University of California San Diego that train a predictive model to predict a given recipe's rating score by Jason Dai and Kelly Gong.
 
 ---
 ## Framing the Problem -- Problem Identification
