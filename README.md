@@ -55,10 +55,10 @@ Furthermore, `minutes` are useful as a feature as less preparation time may be f
 In 2012, the revolutionary iPhone makes people's access to internet easier and ubiquitous. We would like to see our model's accuracy in these groups:
 
 Group X:
-> recipes published prior to 2012.
+> Recipes published prior to 2012.
 
 Group Y:
-> recipes published in and after 2012.
+> Recipes published in and after 2012.
 
 **Evaluation metric**: `Precision`. The reason to use `Precision` here is that we would like to see low `precision` metric in this predictive model as the `false positive` would imply that the user making the recipe should actually spend energy on making other recipes.
 
