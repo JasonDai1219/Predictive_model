@@ -14,7 +14,7 @@ This is a project of DSC 80 at University of California San Diego that train a p
 
 5. **Metric**: **accuracy**. It reveals the accuracy of our prediction model. Moreover, we think that **accuracy** is highly interpretable, thus allows us to better understand how different our predictions are compared to the real data.
 
-**Further Data Cleaning**
+**Further Data Cleaning**: 
 `tags` and `description` are the two columns related to `rating`. For instance, people may prefer the recipes that are **"easy"** (appears in `tags`) or **"delicious"** (appears in `description`). In this way, we clean our data further by including the columns indicating whether each row contains the targeted words. Furthermore, looking at the `nutrition` column, people may prefer recipes with less calories, so we extract the **calories** of each recipe, which is the first element in the nutrition list of every list.
 
 ---
