@@ -42,4 +42,16 @@ This is a project of DSC 80 at University of California San Diego that train a p
 
 3. Evaluation metric : `Precision`. The reason to use `precision` here is that we would like to see low `precision` metric in this predictive model as the `false positive` would imply that the user making the recipe should actually spend energy on making other recipes.
 
+4. Null Hypothesis : Our model is fair. Its precision on recipes published prior to 2012 and recipes published in or after 2012 are roughly the same, and any differences are due to random chance.
+
+5. Alternative Hypothesis : Our model is unfair. Its precision on recipes published prior to 2012 is greater than that of recipes published in or after 2012.
+
+6. Test statistic : Precision of recipes published prior to 2012 group minus the accuracy of recipes published in or after 2012.
+
+7. Significance level : 0.05
+
+8. P-value : 0.0
+
+9. Conclusion : Since the p-value < 0.05 (the `significance level`), hence we reject the null hypothesis and probably the `precision` of recipes published prior to 2012 group is significantly greater than that of recipes published in or after the year 2012 in our analysis.
+
 ---
