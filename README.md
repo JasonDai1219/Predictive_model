@@ -34,4 +34,12 @@ This is a project of DSC 80 at University of California San Diego that train a p
 ---
 ## Fairness Analysis
 
+### In 2012, the revolutionary iPhone makes people's access to internet easier and ubiquitous, we would like to see our model's performance in these groups:
+
+1. Group X : recipes on the website published prior to 2012.
+
+2. Group Y : recipes on the website published after and in 2012.
+
+3. Evaluation metric : `Precision`. The reason to use `precision` here is that we would like to see low `precision` metric in this predictive model as the `false positive` would imply that the user making the recipe should actually spend energy on making other recipes.
+
 ---
