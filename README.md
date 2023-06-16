@@ -28,6 +28,8 @@ We build our baseline model mainly based on two features, `tags` and `descriptio
 
 We applied one-hot encoding to the above two categorical features while also keep the original value of `calories` : numerical, `minutes` : numerical, `n_steps` : numerical, and `n_ingredients` : numerical in the model since we expect that they may contribute to the rating score.
 
+Considering the information we obtain so far, we expect the model to learn from the training data. In this way, we decided to try the K-Nearest Neighbors (KNN) classifier and set the number of neighbors to be 3.
+
 **Model Performance**: We use train/test split to test the mode, and its performance is generally good because it reaches an accuracy more than 0.5 while performing on the testing group.
 
 ---
