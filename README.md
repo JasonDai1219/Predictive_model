@@ -4,7 +4,7 @@ This is a project of DSC 80 at University of California San Diego that train a p
 ---
 ## Framing the Problem -- Problem Identification
 
-1. **Prediction question** : in this analysis, we are trying to predict the `rating` score of a recipe using data provided in the `merged_head` dataframe. 
+1. **Prediction problem** : in this analysis, we are trying to predict the `rating` score of a recipe using data provided in the `merged_head` dataframe. 
 
 2. **Type** : classification. We chose this type of predicition model is because `rating` is a numerical data column in the orginal dataset, however, it only has 5 unique values which classifies each recipe into a level of popularity.
 
