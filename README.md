@@ -26,7 +26,7 @@ This is a project of DSC 80 at University of California San Diego that train a p
 
 We build our baseline model mainly based on two features, `tags` and `description`, which are the two categorical columns, because the information in the two columns are different from each other, and both contains some elements that people may prefer or not. We choose to include **"easy"**, **"breakfast"**, **"lunch"**, and **"dinner"**, which appear in `tags`, and **"delicious"**, which appears in `description` as the targeted words based on the further data cleaning in the previous part. 
 
-We applied one-hot encoding to the above two categorical features while also keep the original value of `calories`, `minutes`, `n_steps`, and `n_ingredients` in the model since we expect that they may contribute to the rating score.
+We applied one-hot encoding to the above two categorical features while also keep the original value of `calories` : numerical, `minutes` : numerical, `n_steps` : numerical, and `n_ingredients` : numerical in the model since we expect that they may contribute to the rating score.
 
 **Model Performance**: We use train/test split to test the mode, and its performance is generally good because it reaches an accuracy more than 0.5 while performing on the testing group.
 
