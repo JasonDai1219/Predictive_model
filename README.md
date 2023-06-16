@@ -14,6 +14,8 @@ This is a project of DSC 80 at University of California San Diego that train a p
 
 5. **Metric**: **precision**. It reveals the proportion of right predictions in or positive predictions of our prediction model. Moreover, we think that **precision** is highly interpretable, thus allows us to better understand how different our predictions are compared to the real data.
 
+6. At the time of training, we would not need all kinds of `id`s in our model, as they are meaningless to use to predict recipes' `ratings`, since a higher `id` number would not mean a higher `rating` on the recipe, so they would only increase the noise of our model. We also do not need `rating` variable, as we are predicting it, and the `review` variable is also unnecessary, as it is usually made when `rating` is made. Moreover, the `name` variable mainly has the same information as the `description` variable, so we do not that also.
+
 **Further Data Cleaning**: 
 `tags` and `description` are the two columns related to `rating`. For instance, people may prefer the recipes that are **"easy"** (appears in `tags`) or **"delicious"** (appears in `description`). In this way, we clean our data further by including the columns indicating whether each row contains the targeted words. Furthermore, looking at the `nutrition` column, people may prefer recipes with less calories, so we extract the **calories** of each recipe, which is the first element in the nutrition list of every list, and we also added a variable column that represents each recipe's published year, which we will use in later parts.
 
