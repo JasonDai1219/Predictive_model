@@ -49,6 +49,8 @@ Furthermore, `minutes` are useful as a feature as less preparation time may be f
 
 **Best Hyperparameters**: The hyperparameter included in the model is `max_depth`, which means the larger the value is, the more complex the model is. However, if the depth is too high, it may lead to an overfit of the training data and perform poorly on the testing data. Therefore, we use `GridSearchCV` to select the best hyperparameters. By comparing the performance of every possible depth with cross validation, the method help choose the depth with the highest mean score on the validation sets, which is 2.
 
+**Overall Model**: Overall, our predictive model one hot encoded categorical variables, such as `easy`, `breakfast`, `lunch`, `dinner`, and `delicious`. Moreover, we binarized the `calories` cariable, and standardized the `minutes` variable. Then we kept the `n_steps` and `n_ingredients` the same. Eventually, we used `GridSearchCV` method and got our wanted `max_depth` of the `RandomForestClassifier`, and we used that optimized hyperparameter in our final model here.
+
 **Final Model Performance**: After adding more features in our final model, the performance is significantly improved by about 10% approaching an accuracy of 0.7. Additionally, finding the best `max_depth` by `GridSearchCV` and using it to train the final model, the performance is further improved.
 
 ---
