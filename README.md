@@ -76,9 +76,9 @@ In 2012, the revolutionary iPhone makes people's access to internet easier and u
 
 **Test statistic**: The signed difference between the accuracies of two groups. Specifically, accuracy of recipes published prior to 2012 group minus the accuracy of recipes published in or after 2012.
 
-**Significance level**: 0.05
+**Significance level**: 0.05, as most permutation tests usually do.
 
-**P-value**: 0.0
+**P-value**: We got a p-value of 0.0 in the permutation test.
 
 **Conclusion**: Since the p-value of 0.0 is smaller than the significance level of 0.05, we reject the null hypothesis, and probably, the accuracy of recipes published prior to 2012 group is significantly greater than that of recipes published in or after the year 2012 in our analysis.
 
